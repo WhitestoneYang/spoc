@@ -35,4 +35,4 @@ SPOC currently supports Python >= 3.6 and requires these packages on any conditi
 
 ### Citing SPOC
 
-If you have used SPOC in your research, please [cite our paper](www.blank.com).
+If you have used SPOC in your research, please [**cite our paper**](https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cphc.202200255).
