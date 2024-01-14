@@ -10,22 +10,8 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-    requirements = []
-# requirements = [
-#     'Click>=7.0',
-#     'pandas==1.3.5',
-#     'numpy==1.21.4',
-#     'scikit-learn==1.0.1',
-#     'jpype1',   
-#     'pubchempy',
-#     'deepchem==2.5.0',
-#     'pytest',
-#     'lightgbm==3.3.2',
-#     'xgboost==1.5.2',
-#     'bayesian-optimization==1.2.0',    
-#     ]
-
-test_requirements = [ ]
+requirements = []
+test_requirements = []
 
 setup(
     author="Whitestone Yang",
