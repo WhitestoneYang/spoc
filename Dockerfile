@@ -20,7 +20,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Install openbabel
-RUN conda install -y -c conda-forge/label/main openbabel
+RUN conda install -y -c conda-forge openbabel
 
 # Copy project files
 COPY . .
