@@ -1,0 +1,14 @@
+numpy
+pandas
+Click
+scikit-learn
+jpype1   
+pubchempy
+deepchem
+tensorflow
+mordred
+pytest
+lightgbm
+xgboost
+bayesian-optimization 
+rdkit

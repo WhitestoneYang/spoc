@@ -5,7 +5,7 @@ Credits
 Development Lead
 ----------------
 
-* Whitetone Yang <qyang_cope@163.com>
+* Whitetone Yang <papertrack@outlook.com>
 
 Contributors
 ------------
