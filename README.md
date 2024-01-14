@@ -1,32 +1,44 @@
 # SPOC
 
 This package is aimed at molecular descriptor generation, data processing, model training, and hyper-parameter optimization.
+
 1. Summarizes various molecular descriptor generation methods provided by different tools/packages, including RDKit, CDK, Openbabel, Pubchem, Deepchem, etc. It's easy for batch generation.
 2. Data pre-processing and splitting.
 3. Modeling training and hyperparameter optimization by leveraging Scikit-Learn, XGBoost, and LightGBM, more machine learning, and neural network methods will be included/wrapped in the future.
- 
+
 ### Dependencies
 
 SPOC currently supports Python >= 3.6 and requires these packages on any condition.
 
- - [Anaconda](https://www.anaconda.com/)  
- - [Java SE Development Kit](https://www.oracle.com) 
- - [OpenBabel](http://openbabel.org)        
- - [deepchem](https://github.com/deepchem/deepchem)
- - [scikit-learn](https://scikit-learn.org)
- - [pubchempy](https://github.com/mcs07/PubChemPy)
- - [lightgbm](https://github.com/microsoft/LightGBM)
- -  [xgboost](https://github.com/dmlc/xgboost)
- - [bayesian-optimization](https://github.com/fmfn/BayesianOptimization)
+- [Anaconda](https://www.anaconda.com/)
+- [Java SE Development Kit](https://www.oracle.com)
+- [OpenBabel](http://openbabel.org)
+- [deepchem](https://github.com/deepchem/deepchem)
+- [scikit-learn](https://scikit-learn.org)
+- [pubchempy](https://github.com/mcs07/PubChemPy)
+- [lightgbm](https://github.com/microsoft/LightGBM)
+- [xgboost](https://github.com/dmlc/xgboost)
+- [bayesian-optimization](https://github.com/fmfn/BayesianOptimization)
 
-### Installation
+### Conda installation
 
 1. Install [Java SE Development Kit](https://www.oracle.com)
-2. Install [Anaconda](https://www.anaconda.com/) 
+2. Install [Anaconda](https://www.anaconda.com/)
 3. Create conda environment `conda create --name your_conda_env_name`
 4. Install [RDKit](https://www.rdkit.org/) `conda install -y -c conda-forge rdkit`
 5. Install [OpenBabel](http://openbabel.org) `conda install -c conda-forge/label/main openbabel`
 6. Install SPOC package `python setup.py install`
+
+### Docker build
+
+```bash
+# docker build
+docker build --progress=plain -t spoc .
+
+# docker run
+docker run -v $(pwd):/workspace/ --network host -it spoc
+
+```
 
 ### Usage
 
